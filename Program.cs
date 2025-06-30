@@ -32,5 +32,4 @@ app.UseCors("AllowAllOrigins");
 
 app.MapControllers();
 
-// app.Run();
-app.Run("http://0.0.0.0:3000");
+app.Run();
